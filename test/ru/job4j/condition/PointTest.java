@@ -19,7 +19,7 @@ public class PointTest {
 
     @Test
     public void when01to20() {
-        double expected = 2.23606797749979;
+        double expected = 2.24;
         int x1 = 0;
         int y1 = 1;
         int x2 = 2;
@@ -30,7 +30,7 @@ public class PointTest {
 
     @Test
     public void when11to20() {
-        double expected = 1.4142135623730951;
+        double expected = 1.42;
         int x1 = 1;
         int y1 = 1;
         int x2 = 2;
@@ -41,7 +41,7 @@ public class PointTest {
 
     @Test
     public void when12to21() {
-        double expected = 1.4142135623730951;
+        double expected = 1.42;
         int x1 = 1;
         int y1 = 2;
         int x2 = 2;
@@ -52,7 +52,7 @@ public class PointTest {
 
     @Test
     public void when00to11() {
-        double expected = 1.4142135623730951;
+        double expected = 1.42;
         int x1 = 0;
         int y1 = 0;
         int x2 = 1;
